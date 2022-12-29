@@ -1,0 +1,47 @@
+.navMain{
+    width: 100%;
+    height: 75px;
+    /*background-color: aqua;*/
+    display: flex;
+    justify-content: space-between;
+}
+.navLogo{
+    width: 12%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.navLogo img{
+    height: 90%;
+}
+.navLogo p{
+    font-size: 150%;
+    font-family: sans-serif;
+}
+.navList{
+    /*background-color: blueviolet;*/
+    width: 30%;
+    
+}
+.navUl{
+    display: flex;
+    justify-content: space-around;
+    
+    /*background-color: blue;*/
+    position: relative;
+    bottom: -20%;
+    list-style-type: none;
+    
+}
+.navLi a{
+    /*background-color: aqua;*/
+    font-family: sans-serif;
+    width: 20%;
+    color: blueviolet;
+    text-decoration: none;
+    
+    
+}
